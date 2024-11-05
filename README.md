@@ -7,4 +7,6 @@ This game project aims to eliminate as many obstacles as possible to having fun,
 
 It is a free and open-source cross-platform game, based on the excellent [Ren'Py game engine](https://www.renpy.org/) (whose GitHub page is [here](https://github.com/renpy/renpy)). Contributions, improvements, translations, and ports to other platforms will all be very welcome on this Absurd Saga GitHub page, once this project is complete enough to upload here.
 
-Code and text are under the [MIT License](LICENSE), and images and music will be under other free licenses (details to be announced later once the game is more complete). The game in its present state, while playable, is currently far too short and incomplete to post here just yet. It will be here once it is ready for the public. Stay tuned.
+Code and text are under the [MIT License](LICENSE), and images and music will be under other free licenses (details to be announced later once the game is more complete).
+
+The game in its present state, while playable, is currently FAR too short and incomplete to post here just yet. It will be here once it is ready for the public, or at least closer to being ready. Stay tuned.
