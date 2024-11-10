@@ -1,7 +1,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 # Absurd Saga
 
-Absurd Saga is an experimental absurdist RPG developed by Rich McGrew, with a simple, intuitive user interface aimed at accessibility and ease of use for all types of players.
+Absurd Saga is an experimental absurdist RPG developed by [Rich McGrew](https://github.com/yetisyny) and the rest of [the Absurd Saga DevTeam](https://github.com/absurdsaga), with a simple, intuitive user interface aimed at accessibility and ease of use for all types of players.
 
 This game project aims to eliminate as many obstacles as possible to having fun, and be widely available for free on as many platforms as possible for everyone. Annoyances being avoided include microtransactions, ads, requiring a constant Internet connection, being pay to win, needing to create an account and password, being a buggy mess that crashes, excessive grinding, inventory management, timed events, a confusingly complicated user interface, and parts of the game where you get stuck and need a walkthrough.
 
