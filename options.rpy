@@ -23,18 +23,18 @@ define gui.show_name = True
 
 ## The version of the game.
 
-define config.version = "pre-alpha-20241109_1"
+define config.version = "pre-alpha-20241110_1"
 
 
 ## Text that is placed on the game's about screen. Place the text between the
 ## triple-quotes, and leave a blank line between paragraphs.
 
 define gui.about = _p("""
-Absurd Saga is an experimental absurdist RPG developed by Rich McGrew, with a simple, intuitive user interface aimed at accessibility and ease of use for all types of players.
+Absurd Saga is an experimental absurdist RPG developed by {a=https://github.com/yetisyny}Rich McGrew{/a} and the rest of {a=https://github.com/absurdsaga}the Absurd Saga DevTeam{/a}, with a simple, intuitive user interface aimed at accessibility and ease of use for all types of players.
 
 This game project aims to eliminate as many obstacles as possible to having fun, and be widely available for free on as many platforms as possible for everyone. Annoyances being avoided include microtransactions, ads, requiring a constant Internet connection, being pay to win, needing to create an account and password, being a buggy mess that crashes, excessive grinding, inventory management, timed events, a confusingly complicated user interface, and parts of the game where you get stuck and need a walkthrough.
 
-It is a free and open-source cross-platform game. Contributions, improvements, translations, and ports to other platforms are all very welcome {a=https://github.com/yetisyny/absurdsaga}on our GitHub{/a}.  Code and text for this game are under the {a=https://github.com/yetisyny/absurdsaga/tree/main?tab=License-1-ov-file}MIT License{/a}. All images are under the {a=https://creativecommons.org/publicdomain/zero/1.0/}CC0 public domain dedication{/a}. All music is under the {a=https://pixabay.com/service/license-summary/}Pixabay Content License{/a}.
+It is a free and open-source cross-platform game. Contributions, improvements, translations, and ports to other platforms are all very welcome {a=https://github.com/absurdsaga/absurdsaga}on our GitHub{/a}.  Code and text for this game are under the {a=https://github.com/absurdsaga/absurdsaga/tree/main?tab=License-1-ov-file}MIT License{/a}. All images are under the {a=https://creativecommons.org/publicdomain/zero/1.0/}CC0 public domain dedication{/a}. All music is under the {a=https://pixabay.com/service/license-summary/}Pixabay Content License{/a}.
 """)
 
 
