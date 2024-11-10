@@ -1,3 +1,13 @@
+License Overview:
+
+There are 4 separate parts to the licensing of Absurd Saga.
+1. All code and text are under the MIT license.
+2. All images and graphics are under the CC0 Public Domain Dedication.
+3. All music is under the Pixabay Content License.
+4. The underlying Ren'Py game engine has its own licensing status.
+
+Part 1 - License for code and text of the game Absurd Saga
+
 MIT License
 
 Copyright (c) 2024 Rich McGrew
@@ -20,6 +30,34 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-See also the Ren'Py license page at https://www.renpy.org/doc/html/license.html
+Part 2 - License for images and graphics in the game Absurd Saga
+
+CC0 Public Domain Dedication
+
+This media is marked with CC0 1.0 Universal and is in the public domain, or
+whatever the closest equivalent is in jurisdictions with no public domain.
+It is not copyrighted by anyone. To view a copy of this license, visit
+https://creativecommons.org/publicdomain/zero/1.0/
+
+Part 3 - License for music in the game Absurd Saga
+
+Pixabay Content License
+
+This media is copyrighted by its original creator(s) and licensed under the
+Pixabay Content License. A summary of this license is at
+https://pixabay.com/service/license-summary/ and the full
+license is at https://pixabay.com/service/terms/
+
+Specific Pixabay creators whose music is used in this game are:
+FASSounds
+ - https://pixabay.com/users/fassounds-3433550/
+ - https://fassounds.com/
+music_for_video
+ - https://pixabay.com/users/22579021/
+
+Part 4 - Licenses for the Ren'Py game engine
+
+See the Ren'Py license page at https://www.renpy.org/doc/html/license.html
 for additional license terms for the underlying Ren'Py game engine. Most of it
-is under the MIT License, too, just like this game.
+is under the MIT License, too, just like this game, but some parts of it are
+under other licenses.
