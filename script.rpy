@@ -1088,7 +1088,7 @@ label after_job:
 
         me "I will succeed where all others have failed, through my unparalled genius and unorthodox methods. A Theory of Everything needs experimental proof, not just a theory!"
 
-        other "Well duh. All efforts do do a Theory of Everything so far have failed because they didn’t have any experimentally testable hypotheses and were pure speculation."
+        other "Well duh. All efforts to do a Theory of Everything so far have failed because they didn’t have any experimentally testable hypotheses and were pure speculation."
 
         me "Exactly! I can tell you have a brilliant mind, good enough to be one of my research assistants, not just a test subject. Anyway, FIRST we do experiments, THEN the theory!"
 
