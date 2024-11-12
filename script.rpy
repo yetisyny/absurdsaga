@@ -1393,6 +1393,22 @@ label after_recruit_lea:
 
     hide receptionist
 
+    # what next?
+    # Don / Damocles Onan Neapoli - a boss of the dwarven mafia who smuggle things through underground tunnels in the Hollow Earth
+    # God / Gyanendra Orichalchum Divinum - the most ancient of the Reptilian space aliens, a wise old dinosaur who has survived for endless aeons and is immortal
+    # ?????
+    # let’s come up with some other interesting characters too...
+    # do NOT use the name Vic, can’t be ripping off other media after all. no Vic! (red versus blue reference) shouldn’t use Cid either. (finnal fantasy reference)
+    # this story and everything in it have to be original after all. not a ripoff of something else.
+    # anyway we need to talk to other weird characters and have other strange interactions and advance the plot
+    # probably shouldn’t introduce God until much later in the plot though. should be less important characters at first. build up to that later on.
+    # it is good to start out with a low-level receptionist. we don’t want to be meeting the big boss characters so soon. gotta have pacing of the story.
+    # also, obviously, the guildmaster is someone who runs the guild, at least locally. for now, the player character is looking for the guildmaster.
+    # that quest shouldn’t be the easiest thing in the world to get done instantly, make it have at least a little difficulty.
+    # like for instance in planescape torment when main character looking for pharod or arcanum when looking for elder joachim etc.
+    # don’t just immediately give player everything, gotta pace that out. build up to it. slowly do some more worldbuilding. with low-level NPCs.
+    # NPCs who are just, not that important in the grand scheme of things. let’s add a bunch of funny characters and make things interesting.
+
     scene bg otherworld
 
     "The rest of this game has not been written yet, but there needs to be stuff like random enemy encounters and other interesting content added."
