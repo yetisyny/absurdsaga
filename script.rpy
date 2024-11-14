@@ -269,24 +269,42 @@ label after_race:
             $ cppronoun = "Her"
             $ aprounoun = "hers"
             $ capronoun = "Hers"
-        "nonbinary":
-            $ gender = "nonbinary"
-            $ cgender = "Nonbinary"
-            $ spronoun = "they"
-            $ cspronoun = "They"
-            $ opronoun = "them"
-            $ copronoun = "Them"
-            $ ppronoun = "their"
-            $ cppronoun = "Their"
-            $ aprounoun = "theirs"
-            $ capronoun = "Theirs"
+        "other":
+            if race == "robot": # some robots are neither male nor female but just genderless and called “it”, as machines
+                $ gender = "genderless"
+                $ cgender = "Genderless"
+                $ spronoun = "it"
+                $ cspronoun = "It"
+                $ opronoun = "it"
+                $ copronoun = "It"
+                $ ppronoun = "its"
+                $ cppronoun = "Its"
+                $ aprounoun = "its"
+                $ capronoun = "its"
+            else: # for other races besides robots, if they aren’t male or female, they are nonbinary, as biological sentient beings
+                $ gender = "nonbinary"
+                $ cgender = "Nonbinary"
+                $ spronoun = "they"
+                $ cspronoun = "They"
+                $ opronoun = "them"
+                $ copronoun = "Them"
+                $ ppronoun = "their"
+                $ cppronoun = "Their"
+                $ aprounoun = "theirs"
+                $ capronoun = "Theirs"
 
 label after_gender:
 
-    "You mark down your gender as [gender]. Hopefully nobody will get your gender wrong."
+    if spronoun == opronoun: # if subject and object pronouns are the same
+        if gender == "genderless": # genderless robot
+            "You mark down your gender as “NONE”. Hopefully people will refer to you as [spronoun], but usually you call yourself I or me and everyone else calls you you. Wait, why would anyone ever talk about you in the third person? How rude!"
+        else: # your gender has a name
+            "You mark down your gender as [gender]. Hopefully people will refer to you as [spronoun], but usually you call yourself I or me and everyone else calls you you. Wait, why would anyone ever talk about you in the third person? How rude!"
+    else: # different subject and object pronouns
+        "You mark down your gender as [gender]. Hopefully people will refer to you as [spronoun] or [opronoun], but usually you call yourself I or me and everyone else calls you you. Wait, why would anyone ever talk about you in the third person? How rude!"
 
     if gender == "male":
-        "Your incredibly manly masculine name ought to be another clue that you’re a guy. Looks like that is the next question."
+        "Your incredibly manly masculine name ought to be another clue that you’re a guy to any insolent busybodies who gossip about you in the third person. Looks like that is the next question."
 
         menu name_m:
             "What is your name?"
@@ -315,7 +333,7 @@ label after_gender:
                 $ acronym = "T.E.D."
                 $ fullname = "Thulius Ezekiel Damocles"
     elif gender == "female":
-        "Your wonderfully lovely feminine name ought to be another clue that you’re a lady. Looks like that is the next question."
+        "Your wonderfully lovely feminine name ought to be another clue that you’re a lady to any insolent busybodies who gossip about you in the third person. Looks like that is the next question."
 
         menu name_f:
             "What is your name?"
@@ -343,8 +361,8 @@ label after_gender:
                 $ name = "Sue"
                 $ acronym = "S.U.E."
                 $ fullname = "Szuszanna Ultima Explosion"
-    else: # in this case, gender is nonbinary
-        "Your amazingly awesome gender-neutral name ought to be another clue that you’re nonbinary. Looks like that is the next question."
+    else: # in this case, gender is nonbinary or genderless
+        "Your amazingly awesome gender-neutral name ought to be another clue that you’re [gender] to any insolent busybodies who gossip about you in the third person. Looks like that is the next question."
 
         menu name_n:
             "What is your name?"
@@ -1395,7 +1413,37 @@ label after_recruit_lea:
 
     # what next?
     # Don / Damocles Onan Neapoli - a boss of the dwarven mafia who smuggle things through underground tunnels in the Hollow Earth
+    #                             - this guy dresses really fancy and acts like a big shot but is also extremely friendly and charismatic
+    #                             - nicest, most charming guy in the world, at first glance, but maybe be careful? very smooth talker
+    #                             - he can smuggle anything anywhere, and talk anyone into doing anything, and wriggle his way out of ever getting in trouble
     # God / Gyanendra Orichalchum Divinum - the most ancient of the Reptilian space aliens, a wise old dinosaur who has survived for endless aeons and is immortal
+    #                                     - turns out to not actually have left the Earth and be the only survivor of Earth’s ancient lost dinosaur civilization
+    #                                     - was the last survivor of the ruling family of the dinosaur civilization when they tested an experimental new weapon
+    #                                     - while it wiped out almost all life on Earth, the collective life force of everything killed became part of him
+    #                                     - he has spent almost all the time since then lying comatose in the hidden ruins, and actually get woken up by
+    #                                       the player character and doesn’t realize how much time has passed
+    #                                     - but since he is pretty close to omnipotent and all-knowing as a result of what happened to him, he quickly figures out
+    #                                       what happened after being woken up and then pretends like he knew what was going on all along
+    #                                     - also God is actually physically sexless, doesn’t have sex organs anymore after the disaster changed him into a powerful
+    #                                       immortal being, but he still considers himself male, and he does have a beard, just no genitals
+    #                                     - apparently he was intervening in many things during his millions of years of comatose slumber unintentionally
+    #                                       but he doesn’t remember anything, many older religions worshipped him because of random stuff he did while asleep
+    #                                       and dreaming for millions of years
+    #                                     - a bit of a goofball and kind of accident-prone, ended up so powerful and immortal unintentionally
+    # Max / Marjoram Anisette Xocoatl - an Alcoholic orc girl who has experimented with different herbs and potions and developed the most powerful
+    #                                   Alcoholic beverages ever
+    #                                 - she is a nun of the Alcoholic Church and not just a deep believer in Alcoholism but considered a great prophet
+    #                                 - she has developed new drunken fighting techniques that Alcoholic monks and nuns can use
+    #                                 - she comes from a long line of Acoholics and her family have been clergy in Alcoholism for generations
+    #                                 - but her development of fighting techniques using new Alcoholic beverages is considered heretical by some
+    #                                 - Alcoholic monks and nuns do not take an oath of chastity or poverty, but instead an oath of drunkenness, to never be sober
+    # make up a name later - a genderless robot created for military purposes
+    #                      - it can rearrange itself into different forms
+    #                      - it can be like a tank, it has missiles, all sorts of stuff
+    #                      - made of the most powerful material, adamantium / adamantite / adamant for short (also the densest material)
+    #                      - extremely heavy because of all the weaponry packed so tightly and because it is made of the heaviest material
+    #                      - however it can also cancel out its gravity and float using antigravity
+    # also at least 1 human, elf, and giant NPC so we have at least one of each race
     # ?????
     # let’s come up with some other interesting characters too...
     # do NOT use the name Vic, can’t be ripping off other media after all. no Vic! (red versus blue reference) shouldn’t use Cid either. (finnal fantasy reference)
