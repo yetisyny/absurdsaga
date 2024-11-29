@@ -1482,8 +1482,14 @@ label after_recruit_lea:
 
 # images:
 # guild.jpg is from https://commons.wikimedia.org/wiki/File:Bermuda_(UK)_image_number_110_lobby_of_the_Princess_Hotel_in_Warwick_Parish.jpg and is public domain (CC0 public domain dedication)
-# purplehills.jpg (and main_menu.png and game_menu.png) are from https://commons.wikimedia.org/wiki/File:Terragen_08._(30358153998).jpg and https://www.flickr.com/photos/jonathan_brandt/30358153998/in/album-72157673364824701 and is public domain (CC0 public domain dedication)
-# I made receptionist.png myself using the Mannequin program, I am making it public domain (CC0 public domain dedication)
+# purplehills.jpg (and main_menu.png and game_menu.png in gui/overlay, original files backed up) are from https://commons.wikimedia.org/wiki/File:Terragen_08._(30358153998).jpg and https://www.flickr.com/photos/jonathan_brandt/30358153998/in/album-72157673364824701 and is public domain (CC0 public domain dedication)
+# I made the various receptionist .png variations myself using the Mannequin program from https://ar14.itch.io/mannequin (trying to make a red-skinned female demon with glasses who is a receptionist dressed in appropriate office attire), I am making it public domain (CC0 public domain dedication)
+# right now there are happy, surprised, and upset variations of the receptionist .png file
+
+# icons:
+# I made the icon for the game using the Stellar Character Creator at https://picrew.me/en/image_maker/2561574 (a simple emoji-style icon of a green-skinned female alien), I am making it public domain (CC0 public domain dedication)
+# the icon is in gui/window_icon.png (icon when playing the game, original file backed up), as well as in the base directory for different systems: android-icon_foreground.png (the icon itself for Android), android-icon_background.png (all white background for Android), icon.icns (Mac .app icon), icon.ico (Windows .exe icon), ios-icon.png (iOS app icon), and web-icon.png (web favicon)
+# make sure to extract the files in "extract to base directory.zip" that is in the game directory into the base directory (1 directory higher) to get the icons working
 
 # music:
 # main.mp3 is by FASSounds from https://pixabay.com/music/beats-good-night-lofi-cozy-chill-music-160166/ and under the Pixabay Content License https://pixabay.com/service/license-summary/
